@@ -7,9 +7,11 @@ module WeatherInCity
       # /api/:version/weather
 
       get do
-        binding.pry
-        # all = Organization.all.order(:short_name)
-        # present all, with: Entities::ShortOrg
+        result = GetCurrentWeatherInCity.call
+        return status 403 if result.current_weather.nil?
+
+        status 200
+        result.current_weather
       end
     end
   end

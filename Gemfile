@@ -63,4 +63,3 @@ gem 'net-smtp', require: false
 
 gem 'grape'
 gem 'grape-entity', '~> 0.7.1'
-gem 'oj'

@@ -177,7 +177,6 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
-    oj (3.13.12)
     parallel (1.22.1)
     parser (3.1.2.0)
       ast (~> 2.4.1)
@@ -309,7 +308,6 @@ DEPENDENCIES
   json_matchers
   listen (~> 3.3)
   net-smtp
-  oj
   pg (~> 1.1)
   pry-byebug (~> 3.7)
   pry-rails

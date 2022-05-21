@@ -12,7 +12,6 @@ RSpec.describe MiamiWeather, type: :model do
 
       it { is_expected.to validate_presence_of(:temperature_by_f) }
       it { is_expected.to validate_presence_of(:temperature_by_c) }
-
     end
   end
 end
